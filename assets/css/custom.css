@@ -260,19 +260,38 @@ header {
 }
 
 /* Focus/Active: completely invisible (no outlines on any device) */
+#dark-mode-toggle,
 #dark-mode-toggle:focus,
 #dark-mode-toggle:active,
 #dark-mode-toggle:focus-visible,
+#dark-mode-toggle:focus-within,
+.nav-toggle,
 .nav-toggle:focus,
 .nav-toggle:active,
-.nav-toggle:focus-visible {
-  background: transparent !important;
+.nav-toggle:focus-visible,
+.nav-toggle:focus-within {
   outline: none !important;
   outline-width: 0 !important;
+  outline-style: none !important;
   outline-offset: 0 !important;
-  border: none !important;
   box-shadow: none !important;
   -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Touch devices: no focus ring ever */
+@media (hover: none) and (pointer: coarse) {
+  #dark-mode-toggle,
+  #dark-mode-toggle:focus,
+  #dark-mode-toggle:active,
+  .nav-toggle,
+  .nav-toggle:focus,
+  .nav-toggle:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
 }
 
 /* Mobile optimizations */

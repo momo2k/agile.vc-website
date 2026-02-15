@@ -68,10 +68,22 @@ function setTheme(mode) {
 }
 
 function toggleTheme() {
+    var toggleBtn = document.getElementById("dark-mode-toggle");
+    
     if (localStorage.getItem("theme-storage") === "light") {
         setTheme("dark");
     } else if (localStorage.getItem("theme-storage") === "dark") {
         setTheme("light");
+    }
+    
+    // Ensure focus is removed on all devices (especially iOS)
+    if (toggleBtn) {
+        toggleBtn.blur();
+        // Double-ensure with delay for iOS
+        setTimeout(function() {
+            toggleBtn.blur();
+            document.activeElement.blur();
+        }, 50);
     }
 }
 
