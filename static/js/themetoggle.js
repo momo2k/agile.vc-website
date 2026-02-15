@@ -18,7 +18,7 @@ function setTheme(mode) {
         
         // Light mode → light favicon
         if (favicon) {
-            favicon.href = '/favicon-light.png';
+            favicon.href = '/agile.vc-website/favicon-light.png';
         }
     } else if (mode === "dark") {
         var darkModeStyle = document.getElementById("darkModeStyle");
@@ -43,7 +43,7 @@ function setTheme(mode) {
         
         // Dark mode → dark favicon
         if (favicon) {
-            favicon.href = '/favicon-dark.png';
+            favicon.href = '/agile.vc-website/favicon-dark.png';
         }
     }
 }
