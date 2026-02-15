@@ -75,8 +75,17 @@ function toggleTheme() {
     }
 }
 
-// Wait for DOM to be ready
-document.addEventListener('DOMContentLoaded', function() {
-    var savedTheme = localStorage.getItem("theme-storage") || "light";
-    setTheme(savedTheme);
-});
+// Initialize theme on load
+(function() {
+    // Run immediately if DOM already loaded, otherwise wait
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTheme);
+    } else {
+        initTheme();
+    }
+    
+    function initTheme() {
+        var savedTheme = localStorage.getItem("theme-storage") || "light";
+        setTheme(savedTheme);
+    }
+})();
