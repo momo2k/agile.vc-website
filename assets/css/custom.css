@@ -1,0 +1,275 @@
+/* Agile Partners Corporate Design */
+/* Works WITH Archie theme's dark mode system */
+
+/* CSS variables for both light and dark mode */
+:root {
+  --agile-blue: #1976A2;
+  --agile-grey: #717074;
+  --bg-light: #f5f5f5;
+  
+  /* Light mode */
+  --color-text: var(--agile-grey);
+  --color-background: var(--bg-light);
+  --color-primary: var(--agile-blue);
+  
+  /* Dark mode - one consistent grey (#f5f5f5) for everything */
+  --color-text-dark: #f5f5f5;
+  --color-background-dark: #000000;
+  --color-primary-dark: #f5f5f5;
+  --color-text-muted-dark: #f5f5f5;
+  --color-border-dark: #f5f5f5;
+  
+  --content-padding: 0;
+}
+
+body, html {
+  font-family: Verdana, sans-serif;
+  font-weight: normal;
+  background-color: var(--bg-light);
+  color: var(--agile-grey);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.content {
+  background-color: var(--bg-light);
+  color: var(--agile-grey);
+  font-weight: normal;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+p {
+  font-weight: normal;
+}
+
+/* Remove hashtag from h1 */
+h1::before {
+  content: '' !important;
+}
+
+/* Links */
+a, a:link, a:visited {
+  color: var(--agile-blue);
+  text-decoration: none;
+  border-bottom: 2px solid var(--agile-blue);
+  display: inline;
+  padding: 0;
+  transition: background-color 0.2s ease, color 0.2s ease, padding 0.2s ease, outline 0.2s ease;
+}
+
+a:hover, a:active, a:focus {
+  color: var(--bg-light);
+  background: var(--agile-blue);
+  outline: 3px solid var(--agile-blue);
+  border-bottom: 2px solid var(--agile-blue);
+  padding: 0 2px;
+}
+
+/* Header */
+header a, .main a {
+  color: var(--agile-blue);
+  border-bottom: 1px solid var(--agile-blue);
+}
+
+header a:hover, .main a:hover {
+  color: var(--bg-light);
+  background: var(--agile-blue);
+  outline: 3px solid var(--agile-blue);
+}
+
+/* Logo link - clean, no underline, no jump */
+.main a {
+  border-bottom: none !important;
+  display: inline-block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.main a:hover,
+.main a:focus,
+.main a:active {
+  background: none !important;
+  outline: none !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.main img {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: -3px; /* Align A with text below */
+  display: block;
+}
+
+.main img:hover {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+/* Logo - will be swapped via CSS variable content in dark mode if needed */
+
+/* Text selection */
+::selection {
+  background: var(--agile-blue);
+  color: var(--bg-light);
+}
+
+::-moz-selection {
+  background: var(--agile-blue);
+  color: var(--bg-light);
+}
+
+/* Section headers */
+strong {
+  color: var(--agile-grey);
+  font-weight: bold;
+}
+
+/* Remove italics */
+em, i {
+  font-style: normal;
+}
+
+/* Layout */
+.content > div {
+  padding-left: 0;
+  padding-inline: 0;
+}
+
+/* Remove bullets */
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  padding-left: 0;
+}
+
+li::before,
+li::marker {
+  content: none;
+  display: none;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+/* Section spacing */
+p {
+  margin-bottom: 1.5em;
+  margin-top: 0;
+}
+
+/* Section headers (bold paragraphs) - consistent spacing */
+p:has(> strong:only-child) {
+  margin-top: 1.5em; /* Match paragraph spacing */
+  margin-bottom: 1.5em; /* Match paragraph spacing */
+}
+
+p:has(> strong:only-child) + p {
+  margin-top: 0;
+}
+
+/* Header spacing - match paragraph spacing */
+header {
+  margin-top: 3em;
+  margin-bottom: 1.5em; /* Match p margin-bottom for consistency */
+}
+
+.content > div > p:first-of-type {
+  margin-top: 0;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  padding: 3rem 0 2rem 0;
+  font-size: 0.85rem;
+  color: var(--agile-grey);
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Footer links - no underline, subtle style */
+.footer a {
+  border-bottom: none;
+  transition: opacity 0.2s ease;
+}
+
+.footer a:hover {
+  background: none;
+  outline: none;
+  text-decoration: underline;
+  padding: 0;
+  opacity: 0.7;
+}
+
+/* Footer links - always no underline, just border-bottom:none isn't enough for Archie */
+.footer a {
+  border-bottom: none !important;
+  border-block-end: none !important;
+}
+
+/* Theme toggle button - Archie style with Agile Blue */
+#dark-mode-toggle,
+.nav-toggle {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dark-mode-toggle svg,
+.nav-toggle svg {
+  stroke: #1976A2;
+  transition: stroke 0.2s ease;
+}
+
+/* Hover: Agile Blue background + outline like original */
+#dark-mode-toggle:hover,
+.nav-toggle:hover {
+  background-color: #1976A2 !important;
+  outline: 2px solid #1976A2 !important;
+  outline-offset: 2px !important;
+}
+
+#dark-mode-toggle:hover svg,
+.nav-toggle:hover svg {
+  stroke: #ffffff !important;
+}
+
+/* Focus/Active: minimal */
+#dark-mode-toggle:focus,
+#dark-mode-toggle:active,
+.nav-toggle:focus,
+.nav-toggle:active {
+  outline: 2px solid #1976A2 !important;
+  outline-offset: 2px !important;
+}
+
+/* Focus/Active: no visual effects */
+#dark-mode-toggle:focus,
+#dark-mode-toggle:active,
+.nav-toggle:focus,
+.nav-toggle:active {
+  background: transparent !important;
+  outline: none !important;
+  outline-offset: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}

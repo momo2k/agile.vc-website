@@ -1,0 +1,13 @@
+baseURL = 'https://agile.vc/'
+languageCode = 'en'
+title = 'Agile Partners - Venture Capital for Software Founders'
+theme = 'archie'
+
+[params]
+  mode = "toggle"
+  useCDN = true
+  subtitle = ""
+  description = "Software founders backing software founders. Early-stage VC in Berlin & DACH. We help technical founders build great companies. Get in touch at hello@agile.vc."
+  og_image = "/og-image.png"
+  customCSS = ["css/custom.css"]
+  customJS = ["/js/custom.js"]

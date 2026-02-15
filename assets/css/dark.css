@@ -1,0 +1,166 @@
+/* Dark Mode - Black BG, Light Grey Text, Agile Blue Accents */
+
+body,
+html,
+.content {
+  background-color: #000000 !important;
+  color: #f5f5f5 !important;
+  font-weight: normal !important;
+  transition: background-color 0.2s ease, color 0.2s ease !important;
+}
+
+/* All text light grey, normal weight */
+p, span, div, li, em, h1, h2, h3, h4, h5, h6, a {
+  color: #f5f5f5 !important;
+  font-weight: normal !important;
+  transition: color 0.2s ease !important;
+}
+
+/* Explicitly set normal weight for all text elements (except strong) */
+body *:not(strong), 
+.content *:not(strong) {
+  font-weight: normal !important;
+}
+
+/* Headlines (strong tags) - bold and same light grey as "Partners" in logo */
+strong,
+p strong,
+.content strong {
+  font-weight: bold !important;
+  color: #f5f5f5 !important;
+  opacity: 1 !important;
+}
+
+/* Remove hashtag from h1 */
+h1::before {
+  content: '' !important;
+}
+
+/* Links: light grey text, Agile Blue underline */
+a, a:link, a:visited {
+  color: #f5f5f5 !important;
+  border-bottom: 2px solid #1976A2 !important;
+  transition: background-color 0.2s ease, color 0.2s ease, outline 0.2s ease !important;
+}
+
+/* Hover: Agile Blue background + frame, black text */
+a:hover, a:active, a:focus {
+  color: #000000 !important;
+  background-color: #1976A2 !important;
+  outline: 3px solid #1976A2 !important;
+  border-bottom: 2px solid #1976A2 !important;
+}
+
+/* Header link */
+header a {
+  color: #f5f5f5 !important;
+  border-bottom: 2px solid #1976A2 !important;
+}
+
+header a:hover {
+  color: #000000 !important;
+  background-color: #1976A2 !important;
+  outline: 3px solid #1976A2 !important;
+}
+
+/* Logo link - clean, no underline, no jump */
+.main a {
+  border-bottom: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.main a:hover,
+.main a:focus,
+.main a:active {
+  background: none !important;
+  outline: none !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Toggle button - Archie style with Agile Blue for dark mode */
+#dark-mode-toggle,
+.nav-toggle {
+  padding: 0.5rem !important;
+  border-radius: 4px !important;
+  border: none !important;
+  background: transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+#dark-mode-toggle svg,
+.nav-toggle svg {
+  stroke: #f5f5f5 !important;
+  transition: stroke 0.2s ease !important;
+}
+
+/* Hover: Agile Blue background + outline like original */
+#dark-mode-toggle:hover,
+.nav-toggle:hover {
+  background-color: #1976A2 !important;
+  outline: 2px solid #1976A2 !important;
+  outline-offset: 2px !important;
+}
+
+#dark-mode-toggle:hover svg,
+.nav-toggle:hover svg {
+  stroke: #ffffff !important;
+}
+
+/* Focus/Active: minimal */
+#dark-mode-toggle:focus,
+#dark-mode-toggle:active,
+.nav-toggle:focus,
+.nav-toggle:active {
+  outline: 2px solid #1976A2 !important;
+  outline-offset: 2px !important;
+}
+
+/* Focus/Active: no visual effects */
+#dark-mode-toggle:focus,
+#dark-mode-toggle:active,
+.nav-toggle:focus,
+.nav-toggle:active {
+  background: transparent !important;
+  outline: none !important;
+  outline-offset: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+/* Footer - same grey as everything else, no opacity */
+.footer,
+.footer a,
+.footer p {
+  color: #f5f5f5 !important;
+}
+
+/* Footer links - no underline */
+.footer a {
+  border-bottom: none !important;
+}
+
+.footer a:hover {
+  background: none !important;
+  outline: none !important;
+  text-decoration: underline !important;
+}
+
+/* Logo swap to monochrome in dark mode */
+.main img {
+  content: url('/agile-logo-mono.png');
+}
+
+/* Selection: Agile Blue */
+::selection {
+  background: #1976A2 !important;
+  color: #f5f5f5 !important;
+}
+
+::-moz-selection {
+  background: #1976A2 !important;
+  color: #f5f5f5 !important;
+}
