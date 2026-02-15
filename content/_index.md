@@ -10,7 +10,7 @@ We are founders backing founders. After building our own software companies, we�
 [storrito.com](https://storrito.com) · Social media posting · Cologne  
 
 **Previous**  
-[understand.ai](https://understand.ai) · Data labeling · Karlsruhe · now dSpace  
+[understand.ai](https://understand.ai) · Data labeling · Karlsruhe · now Dspace  
 [adblockplus.org](https://adblockplus.org) · Ad blocking · Köln · now Eyeo  
 [boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg · now Dropbox
 
