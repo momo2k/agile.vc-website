@@ -1,4 +1,4 @@
-baseURL = 'https://momo2k.github.io/agile.vc-website/'
+baseURL = 'https://agile.vc/'
 languageCode = 'en'
 title = 'Agile Partners - Venture Capital for Software Founders'
 theme = 'archie'
