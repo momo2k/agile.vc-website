@@ -20,14 +20,14 @@ function setTheme(mode) {
         // Light mode → light favicon (relative to base)
         if (favicon) {
             var link = document.createElement('a');
-            link.href = 'favicon-light.png';
+            link.href = '/favicon-light.png';
             favicon.href = link.href;
         }
         
         // Light mode → color logo
         if (logo) {
             var logoLink = document.createElement('a');
-            logoLink.href = 'agile-logo.png';
+            logoLink.href = '/agile-logo.png';
             logo.src = logoLink.href;
         }
     } else if (mode === "dark") {
@@ -54,14 +54,14 @@ function setTheme(mode) {
         // Dark mode → dark favicon (relative to base)
         if (favicon) {
             var link = document.createElement('a');
-            link.href = 'favicon-dark.png';
+            link.href = '/favicon-dark.png';
             favicon.href = link.href;
         }
         
         // Dark mode → monochrome logo
         if (logo) {
             var logoLink = document.createElement('a');
-            logoLink.href = 'agile-logo-mono.png';
+            logoLink.href = '/agile-logo-mono.png';
             logo.src = logoLink.href;
         }
     }
