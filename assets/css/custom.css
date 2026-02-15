@@ -244,17 +244,19 @@ header {
   display: block !important;
 }
 
-/* Hover: Agile Blue background + outline like original */
-#dark-mode-toggle:hover,
-.nav-toggle:hover {
-  background-color: #1976A2 !important;
-  outline: 2px solid #1976A2 !important;
-  outline-offset: 2px !important;
-}
+/* Hover: Only on devices with real hover (not touch) */
+@media (hover: hover) {
+  #dark-mode-toggle:hover,
+  .nav-toggle:hover {
+    background-color: #1976A2 !important;
+    outline: 2px solid #1976A2 !important;
+    outline-offset: 2px !important;
+  }
 
-#dark-mode-toggle:hover svg,
-.nav-toggle:hover svg {
-  stroke: #ffffff !important;
+  #dark-mode-toggle:hover svg,
+  .nav-toggle:hover svg {
+    stroke: #ffffff !important;
+  }
 }
 
 /* Focus/Active: minimal */
