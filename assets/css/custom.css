@@ -281,17 +281,14 @@ header {
 
 /* Mobile optimizations */
 @media screen and (max-width: 768px) {
-  /* Header layout for mobile */
+  /* Header layout for mobile - use relative positioning */
   header {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    justify-content: space-between !important;
-    align-items: flex-start !important;
-    gap: 1rem !important;
+    position: relative !important;
+    display: block !important;
   }
   
   header .main {
-    flex: 1;
+    display: block;
   }
   
   header .main img {
@@ -299,11 +296,12 @@ header {
     height: auto;
   }
   
+  /* Position nav/toggle button absolute top-right */
   nav {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    margin-top: 0;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
   }
   
   /* Bigger touch target for mobile */
