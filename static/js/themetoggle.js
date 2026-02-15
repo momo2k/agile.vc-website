@@ -75,5 +75,8 @@ function toggleTheme() {
     }
 }
 
-var savedTheme = localStorage.getItem("theme-storage") || "light";
-setTheme(savedTheme);
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', function() {
+    var savedTheme = localStorage.getItem("theme-storage") || "light";
+    setTheme(savedTheme);
+});
