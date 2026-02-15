@@ -41,6 +41,11 @@ p {
   font-weight: normal;
 }
 
+/* h1 styling - regular weight like dark mode */
+h1 {
+  font-weight: normal !important;
+}
+
 /* Remove hashtag from h1 */
 h1::before {
   content: '' !important;
