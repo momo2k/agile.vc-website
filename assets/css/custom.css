@@ -237,9 +237,11 @@ header {
 .nav-toggle svg {
   width: 24px !important;
   height: 24px !important;
+  inline-size: 24px !important;
+  block-size: 24px !important;
   stroke: #1976A2;
   transition: stroke 0.2s ease;
-  display: block;
+  display: block !important;
 }
 
 /* Hover: Agile Blue background + outline like original */
