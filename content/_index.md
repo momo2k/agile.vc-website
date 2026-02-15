@@ -2,7 +2,7 @@ We are founders backing founders. After building our own software companies, we�
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
-[promethion.io](https://promethion.io) · Drone defense · Berlin  
+[promethion.io](https://promethion.io) · Counter UAS · Berlin  
 [foreai.co](https://foreai.co) · AI software testing · Zürich  
 [zebrabi.com](https://zebrabi.com) · Business intelligence · Ljubljana  
 [seqana.com](https://seqana.com) · Soil carbon analytics · Berlin  
