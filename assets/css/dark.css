@@ -149,10 +149,7 @@ header a:hover {
   text-decoration: underline !important;
 }
 
-/* Logo swap to monochrome in dark mode */
-.main img {
-  content: url('/agile.vc-website/agile-logo-mono.png');
-}
+/* Logo swap to monochrome in dark mode - handled by JavaScript */
 
 /* Selection: Agile Blue */
 ::selection {

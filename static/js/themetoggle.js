@@ -2,6 +2,7 @@ function setTheme(mode) {
     localStorage.setItem("theme-storage", mode);
     var toggleBtn = document.getElementById("dark-mode-toggle");
     var favicon = document.getElementById("favicon");
+    var logo = document.querySelector('.main img');
     
     if (mode === "light") {
         var darkModeStyle = document.getElementById("darkModeStyle");
@@ -16,9 +17,18 @@ function setTheme(mode) {
             toggleBtn.blur();
         }
         
-        // Light mode → light favicon
+        // Light mode → light favicon (relative to base)
         if (favicon) {
-            favicon.href = '/agile.vc-website/favicon-light.png';
+            var link = document.createElement('a');
+            link.href = 'favicon-light.png';
+            favicon.href = link.href;
+        }
+        
+        // Light mode → color logo
+        if (logo) {
+            var logoLink = document.createElement('a');
+            logoLink.href = 'agile-logo.png';
+            logo.src = logoLink.href;
         }
     } else if (mode === "dark") {
         var darkModeStyle = document.getElementById("darkModeStyle");
@@ -41,9 +51,18 @@ function setTheme(mode) {
             toggleBtn.blur();
         }
         
-        // Dark mode → dark favicon
+        // Dark mode → dark favicon (relative to base)
         if (favicon) {
-            favicon.href = '/agile.vc-website/favicon-dark.png';
+            var link = document.createElement('a');
+            link.href = 'favicon-dark.png';
+            favicon.href = link.href;
+        }
+        
+        // Dark mode → monochrome logo
+        if (logo) {
+            var logoLink = document.createElement('a');
+            logoLink.href = 'agile-logo-mono.png';
+            logo.src = logoLink.href;
         }
     }
 }
