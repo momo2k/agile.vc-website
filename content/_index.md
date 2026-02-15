@@ -15,8 +15,8 @@ We are founders backing founders. After building our own software companies Asta
 [boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg · now Dropbox
 
 **Offices**  
-[Hirschstr. 7, 76133 Karlsruhe](https://maps.google.com/?q=Hirschstr.+7,+76133+Karlsruhe)  
-[Donaustr. 44, 12043 Berlin](https://maps.google.com/?q=The+Delta+Hub,+12043+Berlin)
+[Hirschstr. 7 · 76133 Karlsruhe](https://maps.google.com/?q=Hirschstr.+7,+76133+Karlsruhe)  
+[Donaustr. 44 · 12043 Berlin](https://maps.google.com/?q=The+Delta+Hub,+12043+Berlin)
 
 **Building something meaningful?**  
 [Get in touch](mailto:hello@agile.vc) 👋
