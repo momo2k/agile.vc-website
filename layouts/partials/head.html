@@ -34,8 +34,8 @@
 
 <header>
 	<div class="main">
-		<a href="/">
-			<img src="/agile-logo.png" alt="{{ .Site.Title }}" style="height: 50px; vertical-align: middle; display: block;">
+		<a href="{{ .Site.BaseURL }}">
+			<img src="{{ "agile-logo.png" | relURL }}" alt="{{ .Site.Title }}" style="height: 50px; vertical-align: middle; display: block;">
 		</a>
 	</div>
 	<nav>
