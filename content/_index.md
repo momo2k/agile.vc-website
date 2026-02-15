@@ -1,4 +1,4 @@
-We are founders backing founders. After building our own software companies, we’ve been investing in early-stage startups. Often we are the first backers of technical founders.
+We are founders backing founders. After building our own software companies, we’ve been investing in early-stage startups. Often we are the first backers of technical teams.
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
@@ -10,9 +10,9 @@ We are founders backing founders. After building our own software companies, we�
 [storrito.com](https://storrito.com) · Social media posting · Cologne  
 
 **Previous**  
-[understand.ai](https://understand.ai) · Data labeling · Karlsruhe (now dSpace)  
-[adblockplus.org](https://adblockplus.org) · Ad blocking · Köln · (now Eyeo)  
-[boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg (now Dropbox)
+[understand.ai](https://understand.ai) · Data labeling · Karlsruhe · now dSpace  
+[adblockplus.org](https://adblockplus.org) · Ad blocking · Köln · now Eyeo  
+[boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg · now Dropbox
 
 **Offices**  
 [Hirschstr. 7, 76133 Karlsruhe](https://maps.google.com/?q=Hirschstr.+7,+76133+Karlsruhe)  
