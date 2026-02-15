@@ -1,4 +1,4 @@
-We are founders backing founders. After building our own software companies, we’ve been investing in early-stage startups. Often we are the first backers of technical teams.
+We are founders backing founders. After building our own software companies, we’ve been investing in early-stage startups. We like technical teams working on hard problems. We love working with them.
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
