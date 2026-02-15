@@ -235,8 +235,11 @@ header {
 
 #dark-mode-toggle svg,
 .nav-toggle svg {
+  width: 24px !important;
+  height: 24px !important;
   stroke: #1976A2;
   transition: stroke 0.2s ease;
+  display: block;
 }
 
 /* Hover: Agile Blue background + outline like original */
