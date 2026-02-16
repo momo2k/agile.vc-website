@@ -7,6 +7,7 @@ We are founders backing founders. After building our own software companies Asta
 [zebrabi.com](https://zebrabi.com) · Business intelligence · Ljubljana  
 [seqana.com](https://seqana.com) · Soil carbon analytics · Berlin  
 [saas.group](https://saas.group) · SaaS aggregator · Las Vegas  
+[inlyse.com](https://inlyse.com) · Malware detection · Karlsruhe  
 [storrito.com](https://storrito.com) · Social media posting · Cologne  
 
 **Previous**  
