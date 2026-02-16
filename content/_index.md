@@ -12,8 +12,7 @@ We are founders backing founders. After building our own software companies Asta
 **Previous**  
 [understand.ai](https://understand.ai) · Data labeling · Karlsruhe · now Dspace  
 [adblockplus.org](https://adblockplus.org) · Ad blocking · Köln · now Eyeo  
-[boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg · now Dropbox  
-…and a few lessons along the way.
+[boxcryptor.com](https://boxcryptor.com) · Cloud encryption · Augsburg · now Dropbox
 
 **Offices**  
 [Hirschstr. 7 · 76133 Karlsruhe](https://maps.google.com/?q=Hirschstr.+7,+76133+Karlsruhe)  
