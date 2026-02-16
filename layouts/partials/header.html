@@ -27,13 +27,11 @@
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
+	<!-- Open Graph description (explicit to avoid content fallback) -->
+	<meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 	{{- template "_internal/opengraph.html" . -}}
 	
-	<!-- Twitter Card (override to large image) -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
-	<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-	<meta name="twitter:image" content="{{ .Site.Params.og_image | absURL }}">
+	<!-- Social Icons -->
 	{{- if isset .Site.Params "social" -}}
 	  {{- range $index, $key := .Site.Params.Social -}}
 	    {{- if hasPrefix $key.icon "simple:" -}}
