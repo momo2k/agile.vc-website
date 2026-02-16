@@ -1,4 +1,4 @@
-We are founders backing founders. After building our own software companies Astaro and Ocedo, we’ve been investing in early-stage startups. We are often the first backers of technical teams.
+We are founders backing founders. After building our own software companies Astaro and Ocedo, we’ve been investing in early-stage startups. Often the first backers of technical teams.
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
