@@ -18,7 +18,6 @@ We are founders backing founders. After building our own software companies Asta
 [Hirschstr. 7 · 76133 Karlsruhe](https://maps.google.com/?q=Hirschstr.+7,+76133+Karlsruhe)  
 [Donaustr. 44 · 12043 Berlin](https://maps.google.com/?q=The+Delta+Hub,+12043+Berlin)
 
-We invest from our own balance sheet, long-term, no artificial fund cycles.
-
 **Building something meaningful?**  
+We invest from our own balance sheet, long-term, no artificial fund cycles.  
 [Get in touch](mailto:hello@agile.vc) 👋
