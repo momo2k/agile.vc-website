@@ -2,11 +2,11 @@ We are founders backing founders. After building our own software companies Asta
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
-[promethion.io](https://promethion.io) · Counter UAS · Berlin  
-[foreai.co](https://foreai.co) · AI software testing · Zürich  
-[zebrabi.com](https://zebrabi.com) · Business intelligence · Ljubljana  
+[promethion.io](https://promethion.io) · Counter UAS · Berlin · <a href="https://promethion.io/jobs" class="jobs-link">Jobs</a>  
+[foreai.co](https://foreai.co) · AI software testing · Zürich · <a href="https://foreai.co/careers" class="jobs-link">Jobs</a>  
+[zebrabi.com](https://zebrabi.com) · Business intelligence · Ljubljana · <a href="https://zebrabi.com/careers" class="jobs-link">Jobs</a>  
 [seqana.com](https://seqana.com) · Soil carbon analytics · Berlin  
-[saas.group](https://saas.group) · SaaS aggregator · Las Vegas  
+[saas.group](https://saas.group) · SaaS aggregator · Las Vegas · <a href="https://saas.group/careers" class="jobs-link">Jobs</a>  
 [inlyse.com](https://inlyse.com) · Malware detection · Karlsruhe  
 [storrito.com](https://storrito.com) · Social media posting · Cologne  
 

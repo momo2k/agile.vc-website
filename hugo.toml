@@ -11,3 +11,6 @@ theme = 'archie'
   og_image = "/og-image.png"
   customCSS = ["css/custom.css"]
   customJS = ["/js/custom.js"]
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -338,3 +338,18 @@ header {
     height: 24px !important;
   }
 }
+
+/* Jobs link - subtle, blends with description text */
+a.jobs-link, a.jobs-link:link, a.jobs-link:visited {
+  color: var(--agile-grey);
+  border-bottom: none;
+  font-weight: normal;
+}
+
+a.jobs-link:hover, a.jobs-link:active, a.jobs-link:focus {
+  color: var(--agile-blue);
+  background: none;
+  outline: none;
+  border-bottom: 1px solid var(--agile-blue);
+  padding: 0;
+}
