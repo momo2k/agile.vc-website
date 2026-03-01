@@ -1,4 +1,4 @@
-We are founders backing founders. Agile Partners grew out of Astaro and Ocedo and invests in early-stage startups. Often we are the first backer of technical teams.
+We are founders backing founders. Agile Partners was built by the team behind Astaro and Ocedo and invests in early-stage startups. We're often the first backer of technical teams.
 
 **Portfolio**  
 [cellios.de](https://cellios.de) · Robotic assembly · Stuttgart  
