@@ -20,5 +20,5 @@ We are founders backing founders. After building our own software companies Asta
 [Donaustr. 44 · 12043 Berlin](https://maps.google.com/?q=The+Delta+Hub,+12043+Berlin)
 
 **Building something meaningful?**  
-We invest our own capital, long-term and without fund cycles.  
+Agile invests its own capital, long-term and without fund cycles.  
 [Get in touch](mailto:hello@agile.vc) 👋
